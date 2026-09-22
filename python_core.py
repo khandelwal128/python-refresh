@@ -160,3 +160,9 @@ emails = [
 domains = {email.split("@")[1] for email in emails}
 
 print("Unique domains:", domains)
+
+
+
+
+
+print("Python practice branch is working!")
