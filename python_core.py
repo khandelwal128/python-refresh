@@ -172,3 +172,27 @@ print("Learning Git and GitHub step by step!")
 
 
 print("Master branch commit")
+
+
+# Problem 1: Contains Duplicate
+# Time: O(n)
+# Space: O(n)
+
+def contains_duplicate(nums):
+    return len(nums) != len(set(nums))
+
+
+print(contains_duplicate([1, 2, 3, 1]))
+print(contains_duplicate([1, 2, 3, 4]))
+
+
+# Problem 2: Valid Anagram
+# Time: O(n)
+# Space: O(n)
+
+def is_anagram(s, t):
+    return sorted(s) == sorted(t)
+
+
+print(is_anagram("anagram", "nagaram"))
+print(is_anagram("rat", "car"))
