@@ -166,3 +166,6 @@ print("Unique domains:", domains)
 
 
 print("Python practice branch is working!")
+
+
+print("Learning Git and GitHub step by step!")
